@@ -1,3 +1,5 @@
+// when two or more operators of same precedence present in a expression 
+// then associativity works; it can be from right to left or left to right
 public class Associativity{
 	public static void main(String args[]){
 		int a = 3, b = 5, c = 6 ;
