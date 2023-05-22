@@ -7,7 +7,9 @@ public class IfClause2{
 		BufferedReader br = new BufferedReader( new InputStreamReader(System.in) );
 		int n = Integer.parseInt(br.readLine());
 		if( n < 18 )
+			// part of if block
 			System.out.println("You are not eligible to vote!");
+			// not a part of if block
 			System.out.print("Your age is "+n);
 	}
 }
