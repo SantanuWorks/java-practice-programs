@@ -20,7 +20,7 @@ public class ScanClass{
 		mark = sc.nextShort(); // read an int type
 		System.out.print("Enter your percent: ");
 		percent = sc.nextFloat(); // read floating point value
-		
+		sc.close(); // close the scanner
 		System.out.println("Student name: "+name);
 		System.out.println("age: "+age);
 		System.out.println("grade: "+grade);
