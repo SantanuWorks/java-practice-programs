@@ -10,5 +10,6 @@ public class IfClause1{
 			System.out.println("You are eligible to vote!");
 			System.out.print("Your age is "+n);
 		}
+		br.close(); // close the stream
 	}
 }

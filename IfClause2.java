@@ -11,5 +11,6 @@ public class IfClause2{
 			System.out.println("You are not eligible to vote!");
 			// not a part of if block
 			System.out.print("Your age is "+n);
+		br.close(); // close the stream
 	}
 }
