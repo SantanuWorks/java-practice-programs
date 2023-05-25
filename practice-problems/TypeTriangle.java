@@ -1,7 +1,6 @@
-// program to check whether a triangle is valid or not 
-// if sum of two side is greater than the third then triangle is valid
+// program to find the type of triangle whether scelene, isoscales, equilateral or right angled
 // input through command line
-public class Leap{
+public class TypeTriangle{
 	public static void main(String[] args){
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
