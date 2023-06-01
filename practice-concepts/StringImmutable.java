@@ -1,4 +1,4 @@
-// program to demonstrate various methods of string creation
+// program to demonstrate the property of immuatability
 public class StringCreate{
 	public static void main(String[] args){
 		// string declared
