@@ -41,7 +41,21 @@ public class StrMethods{
 		System.out.println("String pooled string object is "+str.intern());
 		
 		// It returns true if the length of the String is 0.
-		System.out.print("String is empty: "+str.isEmpty());
+		System.out.println("String is empty: "+str.isEmpty());
 		
+		// Replace all the occurances of substring
+		System.out.println("Replaced istring is "+"CoCoMoModel".replaceAll("Co","Mo"));
+		
+		// Replace first occurances of substring
+		System.out.println("Replaced istring is "+"CoCoMoModel".replaceFirst("Co","Mo"));
+		
+		// Split the string based on a string 
+		String[] strs ;
+		strs = "ComputeCjjhCosnsCor".split("jj") ;
+		for( String ech: strs ) System.out.println(ech);
+		System.out.println();
+		
+		// Join strings 
+		System.out.print(str.join("Co","Mo"));
 	}
 }
