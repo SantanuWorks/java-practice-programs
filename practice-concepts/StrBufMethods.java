@@ -1,6 +1,5 @@
 // Program to demonstrate the use of stringbuffer methods
-import java.io.*;
-public class StrBuff{
+public class StrBufMethods{
 	public static void main(String[] args){
 		// StringBuffer objects are mutable - we can change their content
 		StringBuffer sb = new StringBuffer("Computer");
@@ -36,9 +35,13 @@ public class StrBuff{
 		System.out.println(sb.deleteCharAt(3));
 		
 		// Find length of a string
-		System.out.print(sb.length());
+		System.out.println(sb.length());
 		
 		// Ensure atlest capacity
 		sb.ensureCapacity(40);
+		
+		// Return String objects
+		String str = sb.toString();
+		System.out.print(str);
 	}
 }
