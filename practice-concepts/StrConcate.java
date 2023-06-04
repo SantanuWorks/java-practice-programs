@@ -1,4 +1,4 @@
-// Program to demonstrate concatanation of String 
+// Program to demonstrate concatenation of String 
 public class StrConcate{
 	public static void main(String[] args){
 		// Add char, int, float to string to string
