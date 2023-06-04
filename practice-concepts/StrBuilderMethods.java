@@ -1,0 +1,47 @@
+// Program to demonstrate the use of stringbuilder methods
+public class StrBuilderMethods{
+	public static void main(String[] args){
+		// StringBuilder objects are mutable - we can change their content
+		StringBuilder sb = new StringBuilder("Computer");
+		
+		// Append() add a new string at the end of old string
+		sb.append("Programming");
+		System.out.println(sb);
+		
+		// Insert a new string at specified position in old string
+		sb.insert(8, " ");
+		System.out.println(sb);
+		
+		// Replace range of string with new string
+		sb.replace(8,9,"__");
+		System.out.println(sb);
+		
+		// Delete a range of string from original string
+		sb.delete(8,10);
+		System.out.println(sb);
+		
+		// Return the reverse of a string
+		sb.reverse();
+		System.out.println(sb);
+		sb.reverse();
+		
+		// Return the current capacity of string buffer
+		System.out.println(sb.capacity());
+		
+		// Return Character at a position
+		System.out.println(sb.charAt(3));
+		
+		// Delete Character at a position
+		System.out.println(sb.deleteCharAt(3));
+		
+		// Find length of a string
+		System.out.println(sb.length());
+		
+		// Ensure atlest capacity
+		sb.ensureCapacity(40);
+		
+		// Return String objects
+		String str = sb.toString();
+		System.out.print(str);
+	}
+}
