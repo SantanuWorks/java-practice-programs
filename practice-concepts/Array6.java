@@ -1,5 +1,5 @@
 // Program to demonstrate use of array
-public class Array5{
+public class Array6{
 	public static void main(String[] args){
 		// array index should lie between 0 and len-1
 		// otherwise there will be an exception called as
