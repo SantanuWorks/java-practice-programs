@@ -1,0 +1,19 @@
+// Write a program that interchanges the odd and even elements of an array.
+// Enter even and odd numbers in alternate
+import java.util.Scanner;
+public class Array5{
+	public static void main(String[] args){
+		int n = 25;
+		int temp;
+		Scanner sc = new Scanner(System.in);
+		int[] arr = new int[n];
+		System.out.print("Enter "+n+" numbers: ");
+		for( int i = 0; i < n; i++ ) arr[i] = sc.nextInt();
+		for( int a:arr ) System.out.print(a+" ");
+		System.out.println();
+		temp = arr[n-1];
+		for( int i = n-1; i > 0; i -- ) arr[i] = arr[i-1];
+		arr[0] = temp;
+		for( int a:arr ) System.out.print(a+" ");
+	}
+}
