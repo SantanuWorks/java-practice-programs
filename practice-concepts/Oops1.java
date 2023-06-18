@@ -1,4 +1,4 @@
-// Program to demonstrate the class 
+// Program to demonstrate the OOP concepts
 public class Oops1{
 	public static void main(String[] args){
 		System.out.print("class declaration in java");
