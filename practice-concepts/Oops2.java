@@ -1,6 +1,6 @@
-// Program to demonstrate the class 
+// Program to demonstrate the OOP concepts
 // now lets create an object 
-public class Oops1{
+public class Oops2{
 	public static void main(String[] args){
 		System.out.println("class declaration in java");
 		// object creation
