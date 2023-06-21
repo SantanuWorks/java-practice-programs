@@ -4,11 +4,11 @@ public abstract class Test{
 	// contructors
 	Test(){ System.out.println("Abstraction"); }
 	Test(int a){ this.a = a; }
-	// static method
+	// static method 
 	static void display(){ System.out.println("Abstraction"); }
 	// abstract method
 	abstract void calc();
-	// final method
+	// final method - cann't be overriden
 	final void reside(){ System.out.println("Abstraction"); }
 	// concrete method
 	int drop(){ return 1; }
