@@ -20,6 +20,8 @@ public class Method2{
 		Method2 m = new Method2();
 		// class-name, object can be used to call static methods
 		Method2.display();
+		// this will work
+		// m.display();
 		// we can omit if caller method is aslo static
 		// display();
 	}
