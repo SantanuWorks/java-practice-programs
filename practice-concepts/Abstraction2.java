@@ -4,7 +4,7 @@ public class Abstraction2{
 		// we can indirectly create object of Test type
 		Test t = new Define();
 		t.calc(12);
-	}
+	} 
 }
 abstract class Test{
 	abstract void calc(int a);
