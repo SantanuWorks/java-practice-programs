@@ -1,5 +1,5 @@
 // Program to demonstrate the Methods in java - method overloading
-public class Method6{
+public class Method8{
 	// we can overload main() - but compiler only picks the default once
 	public static void main(String[] args){
 		System.out.println("real main()");  
