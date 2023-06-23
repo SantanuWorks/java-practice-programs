@@ -1,5 +1,5 @@
 // Program to demonstrate the Methods in java - method overloading
-public class Method6{
+public class Method7{
 	public static void main(String[] args){
 		Test.sum(1,3); 
 		Test.sum(-4.342,232.232);
