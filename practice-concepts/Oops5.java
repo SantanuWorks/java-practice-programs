@@ -1,5 +1,5 @@
 // Program to demonstrate the OOP concepts - method overloading ways
-public class Oops4{
+public class Oops5{
 	public static void main(String[] args){
 	}
 }
