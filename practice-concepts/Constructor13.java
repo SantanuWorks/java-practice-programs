@@ -12,7 +12,7 @@ public class Constructor13{
 }
 // Singleton class allows to create only one object
 class Singleton{
-	public static Singleton oneObj = null;
+	private static Singleton oneObj = null;
 	int i = 0;
 	void display(){
 		System.out.println("Current i = "+i);
