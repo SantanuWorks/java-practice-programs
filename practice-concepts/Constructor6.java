@@ -1,6 +1,6 @@
 // Program to demonstrate various the concept of constructor
 // Write a program to add two complex numbers
-public class Constructor5{
+public class Constructor6{
 	public static void main(String[] args){
 		Complex a = new Complex(1,3);
 		Complex b = new Complex(-1,5);
