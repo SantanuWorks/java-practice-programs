@@ -1,5 +1,5 @@
 // Write a Program to find area of circle, triangle and rectangle using function overloading
-public class Oops1{
+public class Oops1{ 
 	public static void main(String[] args){
 		ShapeArea sa = new ShapeArea();
 		sa.display("Circle", sa.area(6));
