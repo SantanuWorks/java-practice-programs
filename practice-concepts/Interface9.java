@@ -1,8 +1,8 @@
 // Program to practice the concept of interface in java.
 public class Interface9{
 	public static void main(String[] args){
-		C c = new C();
-		c.show();
+		D d = new D();
+		d.show();
 	}
 }
 // default methods have body in interface
@@ -11,14 +11,15 @@ interface A{
 		System.out.println("A's m()");
 	}
 }
-interface B{
-	default int m(){
-		System.out.println("B's m()");
-	}
+interface B extends A{
+	void show();
 }
-class C implements A,B{
-	void show(){
-		A.super.m();
+interface C extends A{
+	void show();
+}
+class D implements B,C{
+	public void show(){
 		B.super.m();
+		C.super.m();
 	}
 }
