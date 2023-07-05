@@ -1,4 +1,4 @@
-// Program to practice the concept of interface in java.
+// Program to practice the concept of interface in java - nested interface
 public class Interface11{
 	public static void main(String[] args){
 		impleB ib = new impleB();
