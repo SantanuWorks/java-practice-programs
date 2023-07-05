@@ -1,4 +1,5 @@
-// Program to practice the concept of interface in java.
+// Program to practice the concept of interface in java 
+// Real world implementation of interface
 public class Interface10{
 	public static void main(String[] args){
 		Phone redmi = new Phone();
