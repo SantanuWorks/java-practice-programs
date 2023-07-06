@@ -4,30 +4,25 @@
 import java.util.*;
 public class Interface14{
 	public static void main(String[] args){
-		Student arr[] = new Student[4];
+		Student arr[] = new Student[10];
         arr[0] = new Student("Bijay", 393);
         arr[1] = new Student("Debasish", 379);
         arr[2] = new Student("Chandan", 375);
-        arr[3] = new Student("Hari", 364);
-		
+        arr[3] = new Student("Hari", 345);
+		arr[4] = new Student("Ajay", 393);
+        arr[5] = new Student("Chetan", 354);
+        arr[6] = new Student("Suraj", 375);
+        arr[7] = new Student("Dinesh", 316);
+		arr[8] = new Student("Akash", 383);
+        arr[9] = new Student("Ajay", 378);
+        
 		System.out.println("Sorting by both name and mark");
 		System.out.println("Before sorting: ");
         for (int i = 0; i < arr.length; i++)
             arr[i].setter();
 		
 		System.out.println();
-		Arrays.sort(arr,new SortByName());
-		
-		System.out.println("After sorting: ");
-        for (int i = 0; i < arr.length; i++)
-            arr[i].setter();
-		
-		System.out.println("\nBefore sorting: ");
-        for (int i = 0; i < arr.length; i++)
-            arr[i].setter();
-		
-		System.out.println();
-		Arrays.sort(arr,new SortByMark());
+		Arrays.sort(arr,new SortByNameMark());
 		
 		System.out.println("After sorting: ");
         for (int i = 0; i < arr.length; i++)
@@ -46,17 +41,11 @@ class Student{
 	}
 }
 // implement comparator class
-class SortByMark implements Comparator<Student>{
+class SortByNameMark implements Comparator<Student>{
 	public int compare(Student a, Student b){
 		// ascending order
-		if( a.mark > b.mark ) return 1;
-		else if( a.mark < b.mark ) return -1;
-		else return 0;
-	}
-}
-class SortByName implements Comparator<Student>{
-	public int compare(Student a, Student b){
-		// ascending order
-		return a.name.compareTo(b.name);
+		int com = a.name.compareTo(b.name);
+		if( com == 0 ) com = (a.mark < b.mark)?1:-1;
+		return com;
 	}
 }
