@@ -5,7 +5,7 @@ public class Interface4{
 		b.display();
 		// we cannot change final variable 
 		b.a = 23; // error code
-	}
+	}  
 }
 interface A{
 	// this is public static final
