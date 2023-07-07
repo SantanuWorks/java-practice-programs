@@ -4,7 +4,7 @@ public class Interface8{
 		B b = new B();
 		b.m1();
 		b.m2();
-	}
+	} 
 }
 // default methods have body in interface
 interface A{
