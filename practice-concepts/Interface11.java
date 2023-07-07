@@ -6,7 +6,7 @@ public class Interface11{
 		impleD id = new impleD();
 		id.display();
 	}
-}
+} 
 // interfaces can be nested inside a class or interface
 interface A{
 	interface B{
