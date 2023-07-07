@@ -2,7 +2,7 @@
 // implementing Comparable class - to sort objects 
 // Sorting by more than one field
 import java.util.*;
-public class Interface15{
+public class Interface15{ 
 	public static void main(String[] args){
 		Product arr[] = new Product[22];
         arr[0] = new Product("Water Bottle", 100, 4);
