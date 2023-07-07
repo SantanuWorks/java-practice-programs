@@ -5,7 +5,7 @@ public class Interface6{
 		b.call();
 	}
 }
-interface A{
+interface A{ 
 	// It can also contain private, static and private static methods 
 	// we can define body of these methods
 	// these methods are not accessible are not outside
