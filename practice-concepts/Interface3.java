@@ -4,7 +4,7 @@ public class Interface3{
 		C obj = new C();
 		obj.f();
 	}
-}
+} 
 // Using interfaces implement multiple inheritance
 interface A{ 
 	void f();
