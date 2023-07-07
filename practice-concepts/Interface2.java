@@ -11,7 +11,7 @@ public class Interface2{
 }
 interface Vehicle{
 	void start();
-	void move();
+	void move(); 
 	void getFuel();
 }
 abstract class Car implements Vehicle{
