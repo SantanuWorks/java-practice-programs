@@ -6,7 +6,7 @@ public class Interface10{
 		redmi.storageApp();
 		redmi.networkApp();
 		redmi.cameraApp();
-	}
+ 	}
 }
 interface Network{
 	void getSIMInfo();
