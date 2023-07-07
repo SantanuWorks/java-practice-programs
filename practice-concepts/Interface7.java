@@ -4,7 +4,7 @@ public class Interface7{
 		Test t = new Test();
 		t.m1();
 		t.m2();
-		t.m3();
+		t.m3(); 
 	}
 }
 // interfaces can be extended - one interface can extend one or more interfaces
