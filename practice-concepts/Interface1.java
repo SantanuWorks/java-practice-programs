@@ -4,7 +4,7 @@ public class Interface1{
 		User u1 = new User("mrcyber");
 		u1.startGame();
 		u1.playGame();
-		u1.endGame();
+		u1.endGame(); 
 	}
 }
 // it provides 100% abstraction
