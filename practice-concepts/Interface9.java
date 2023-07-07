@@ -4,7 +4,7 @@ public class Interface9{
 		D d = new D();
 		d.show();
 	}
-}
+} 
 // default methods have body in interface
 interface A{
 	default void m(){
