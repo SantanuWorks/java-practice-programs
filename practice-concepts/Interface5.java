@@ -7,7 +7,7 @@ public class Interface5{
 		A a = new A(); // error
 	}
 }
-interface A{
+interface A{ 
 	// constructor do not support constructor
 	A(){} // error
 	void display();
