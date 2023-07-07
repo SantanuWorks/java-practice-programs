@@ -4,7 +4,7 @@ public class Interface12{
 		B b = new B();
 		b.show();
 	}
-}
+} 
 @FunctionalInterface // annotation helps in checking the correctness of this interface 
 // at compiler level it helps to check whether interface has only one method or not
 interface A{
