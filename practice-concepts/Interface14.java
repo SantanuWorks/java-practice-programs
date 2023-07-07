@@ -2,7 +2,7 @@
 // implementing Comparable class - to sort objects 
 // Sorting by more than one field
 import java.util.*;
-public class Interface14{
+public class Interface14{ 
 	public static void main(String[] args){
 		Student arr[] = new Student[10];
         arr[0] = new Student("Bijay", 393);
