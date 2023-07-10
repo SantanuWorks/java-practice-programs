@@ -5,10 +5,11 @@ public class Wrapper7{
 		Long s1 = 2L;
 		Long s2 = 3L;
 		long sp = 1;
+		
 		// Long Wrapper Class Methods
-		// Constructors
-		// Long s = new Long(sp);
-		// Long s = new Long("2");
+		// Constructors - deprecated
+		Long s = new Long(sp);
+		Long s = new Long("2");
 		
 		// Long Class fields
 		System.out.println("No of bytes used to represent a long value (2's complement) is "+Long.BYTES);
