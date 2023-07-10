@@ -5,10 +5,11 @@ public class Wrapper5{
 		Short s1 = 2;
 		Short s2 = 3;
 		short sp = 1;
+		
 		// Short Wrapper Class Methods
-		// Constructors
-		// Short s = new Short(sp);
-		// Short s = new Short("2");
+		// Constructors - deprecated
+		Short s = new Short(sp);
+		Short s = new Short("2");
 		
 		// Short Class fields
 		System.out.println("No of bytes used to represent a short value (2's complement) is "+Short.BYTES);
