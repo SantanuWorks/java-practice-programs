@@ -5,10 +5,11 @@ public class Wrapper6{
 		Integer s1 = 2;
 		Integer s2 = 3;
 		int sp = 1;
+		
 		// Integer Wrapper Class Methods
-		// Constructors
-		// Integer s = new Integer(sp);
-		// Integer s = new Integer("2");
+		// Constructors - deprecated
+		Integer s = new Integer(sp);
+		Integer s = new Integer("2");
 		
 		// Integer Class fields
 		System.out.println("No of bytes used to represent a int value (2's complement) is "+Integer.BYTES);
