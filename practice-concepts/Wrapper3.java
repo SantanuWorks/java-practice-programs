@@ -2,7 +2,14 @@
 public class Wrapper3{
 	public static void main(String[] args){
 		Character ch = 'A';
+		Character c1 = 'A';
+		Character c2 = 'B';
 		// Character Wrapper Class Methods
+		// Character c = new Character('A');
+
+		// Character valueOf(char ch)
+		System.out.println(Character.valueOf('A'));
+
 		// boolean isLetter( char ch ) - checks whether a character is letter or not
 		System.out.println(Character.isLetter('A'));
 
@@ -34,8 +41,6 @@ public class Wrapper3{
 		System.out.println(Character.compare('a','A'));
 		
 		// int compareTo(Character ch) - compares two char objects numerically
-		Character c1 = 'A';
-		Character c2 = 'B';
 		System.out.println(c1.compareTo(c2));
 		
 		// boolean equals(Object obj) - checks whether two objects are equal or not
