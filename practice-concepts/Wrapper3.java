@@ -4,8 +4,9 @@ public class Wrapper3{
 		Character ch = 'A';
 		Character c1 = 'A';
 		Character c2 = 'B';
+		
 		// Character Wrapper Class Methods
-		// Character c = new Character('A');
+		Character c = new Character('A'); // deprecated
 
 		// Character valueOf(char ch)
 		System.out.println(Character.valueOf('A'));
