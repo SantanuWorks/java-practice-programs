@@ -7,10 +7,9 @@ public class Wrapper4{
 		byte bp = 1;
 		
 		// Byte Wrapper Class Methods
-		
-		// Constructors
-		// Byte b = new Byte(bp);
-		// Byte b = new Byte("2");
+		// Constructors - deprecated
+		Byte b = new Byte(bp);
+		Byte b = new Byte("2");
 		
 		// Byte Class fields
 		System.out.println("No of bytes used to represent a byte value (2's complement) is "+Byte.BYTES);
