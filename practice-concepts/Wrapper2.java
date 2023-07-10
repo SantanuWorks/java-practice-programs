@@ -2,7 +2,7 @@
 public class Wrapper2{
 	public static void main(String[] args){
 		// Constructor method is deprecated
-		// Integer a = new Integer(1);
+		Integer a = new Integer(1); // deprecated
 		
 		// Using valueOf() method
 		Integer b = Integer.valueOf(2);
