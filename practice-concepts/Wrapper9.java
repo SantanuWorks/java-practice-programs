@@ -18,20 +18,18 @@ public class Wrapper9{
 		System.out.println("MIN double value is "+Double.MIN_VALUE);
 		System.out.println("Class type is "+Double.TYPE);
 		
+		// Common Methods
 		// Double valueOf(double b)
 		System.out.println(Double.valueOf(sp));
 		
 		// Double valueOf(String s)
 		System.out.println(Double.valueOf("12.99"));
 		
-		// double parseDouble(String s)
-		System.out.println(Double.parseDouble("53.99"));
-		
 		// String toString(double i) - returns a string class object representing the specified double object 
 		System.out.println(Double.toString(st));
 		
-		// String toHexString(double b) - returns the string corresponding to the double value in hexadecimal form
-		System.out.println(Double.toHexString(st));
+		// String toString() - returns a string class object representing the specified double object 
+		System.out.println(st.toString());
 		
 		// byte byteValue() - returns a byte value representing the specified double object 
 		System.out.println(st.byteValue());
@@ -60,13 +58,20 @@ public class Wrapper9{
 		// boolean equals(Object obj) - checks whether two objects are equal or not
 		System.out.println(s1.equals(s2));
 		
+		// Additional Methods
+		// double parseDouble(String s)
+		System.out.println(Double.parseDouble("53.99"));
+		
+		// String toHexString(double b) - returns the string corresponding to the double value in hexadecimal form
+		System.out.println(Double.toHexString(st));
+		
 		// double max(double a, double b) - finds the max of two float
 		System.out.println(Double.max(1.2,3.4));
 		
 		// double min(double a, double b) - finds the min of two float
 		System.out.println(Double.min(1.2,3.4));
 		
-		// int boolean isNaN() - returns true if the double object in consideration is not a number, otherwise false. 
+		// boolean isNaN(double b) - returns true if the double object in consideration is not a number, otherwise false. 
 		System.out.println(Double.isNaN(8.32));
 		
 		// boolean isInfinite(double b): returns true if the double object in consideration is very large,
