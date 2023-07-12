@@ -17,21 +17,19 @@ public class Wrapper8{
 		System.out.println("MAX float value is "+Float.MAX_VALUE);
 		System.out.println("MIN float value is "+Float.MIN_VALUE);
 		System.out.println("Class type is "+Float.TYPE);
-		
+
+		// Common Methods
 		// Float valueOf(float b)
 		System.out.println(Float.valueOf(sp));
 		
 		// Float valueOf(String s)
 		System.out.println(Float.valueOf("12.99"));
 		
-		// float parseFloat(String s)
-		System.out.println(Float.parseFloat("53.99"));
-		
 		// String toString(float i) - returns a string class object representing the specified float object 
 		System.out.println(Float.toString(st));
 		
-		// String toHexString(float b) - returns the string corresponding to the float value in hexadecimal form
-		System.out.println(Float.toHexString(st));
+		// String toString() - returns a string class object representing the specified float object 
+		System.out.println(st.toString());
 		
 		// byte byteValue() - returns a byte value representing the specified float object 
 		System.out.println(st.byteValue());
@@ -60,16 +58,23 @@ public class Wrapper8{
 		// boolean equals(Object obj) - checks whether two objects are equal or not
 		System.out.println(s1.equals(s2));
 		
+		// Additional Methods
+		// float parseFloat(String s)
+		System.out.println(Float.parseFloat("53.99"));
+		
 		// float max(float a, float b) - finds the max of two float
 		System.out.println(Float.max(1.2f,3.4f));
 		
 		// float min(float a, float b) - finds the min of two float
 		System.out.println(Float.min(1.2f,3.4f));
 		
-		// int boolean isNaN() - returns true if the float object in consideration is not a number, otherwise false. 
+		// boolean isNaN(float b) - returns true if the float object in consideration is not a number, otherwise false. 
 		System.out.println(Float.isNaN(8.32f));
 		
 		// boolean isInfinite(float b): returns true if the float object in consideration is very large,
 		System.out.print(Float.isInfinite(882083423.234832848f));
+		
+		// String toHexString(float b) - returns the string corresponding to the float value in hexadecimal form
+		System.out.println(Float.toHexString(st));
 	} 
 }
