@@ -15,23 +15,18 @@ public class Wrapper10{
 		System.out.println("FALSE has "+Boolean.FALSE);
 		System.out.println("Class type is "+Boolean.TYPE);
 		
-		// Double valueOf(boolean b)
+		// Common Methods
+		// Boolean valueOf(boolean b)
 		System.out.println(Boolean.valueOf(c));
 		
-		// Double valueOf(String s)
+		// Boolean valueOf(String s)
 		System.out.println(Boolean.valueOf("true"));
-		
-		// double parseDouble(String s)
-		System.out.println(Boolean.parseBoolean("false"));
 		
 		// String toString(boolean b) - returns a string class object representing the specified boolean object 
 		System.out.println(Boolean.toString(c));
 		
 		// String toString() - returns a string class object representing the specified boolean object 
 		System.out.println(a.toString());
-		
-		// boolean booleanValue() - returns a boolean value representing the specified boolean object 
-		System.out.println(a.booleanValue());
 		
 		// int compareTo(boolean b) - compares two boolean objects 
 		System.out.println(a.compareTo(b));
@@ -41,5 +36,12 @@ public class Wrapper10{
 		
 		// boolean equals(Object obj) - checks whether two objects are equal or not
 		System.out.print(a.equals(b));
-	} 
+		
+		// Additional Methods
+		// boolean booleanValue() - returns a boolean value representing the specified boolean object 
+		System.out.println(a.booleanValue());
+		
+		// boolean parseBoolean(String s)
+		System.out.println(Boolean.parseBoolean("false"));
+	}	
 }
