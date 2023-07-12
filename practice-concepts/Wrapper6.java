@@ -18,26 +18,18 @@ public class Wrapper6{
 		System.out.println("MIN int value is "+Integer.MIN_VALUE);
 		System.out.println("Class type is "+Integer.TYPE);
 		
+		// Common Methods
 		// Integer valueOf(int b)
 		System.out.println(Integer.valueOf(sp));
 		
 		// Integer valueOf(String s)
 		System.out.println(Integer.valueOf("12"));
 		
-		// int parseInteger(String s)
-		System.out.println(Integer.parseInt("53"));
-		
 		// String toString(int i) - returns a string class object representing the specified int object 
 		System.out.println(Integer.toString(st));
 		
-		// String toHexString(int b) - returns the string corresponding to the int value in hexadecimal form
-		System.out.println(Integer.toHexString(st));
-		
-		// String toOctalString(int b)) - returns the string corresponding to the int value in octal form 
-		System.out.println(Integer.toOctalString(st));
-		
-		// String toBinaryString(int b) - returns the string corresponding to the int value in binary form
-		System.out.println(Integer.toBinaryString(st));
+		// String toString() - returns a string class object representing the specified int object 
+		System.out.println(st.toString());
 		
 		// byte byteValue() - returns a byte value representing the specified int object 
 		System.out.println(st.byteValue());
@@ -66,6 +58,10 @@ public class Wrapper6{
 		// boolean equals(Object obj) - checks whether two objects are equal or not
 		System.out.println(s1.equals(s2));
 		
+		// Additional Values
+		// int parseInt(String s)
+		System.out.println(Integer.parseInt("53"));
+		
 		// int max(int a, int b) - finds the max of two integers
 		System.out.println(Integer.max(1,3));
 		
@@ -74,5 +70,14 @@ public class Wrapper6{
 		
 		// int signum(int b) - returns -1 for negative values, 0 for 0 and +1 for values greater than 0. 
 		System.out.print(Integer.signum(8));
+		
+		// String toHexString(int b) - returns the string corresponding to the int value in hexadecimal form
+		System.out.println(Integer.toHexString(st));
+		
+		// String toOctalString(int b)) - returns the string corresponding to the int value in octal form 
+		System.out.println(Integer.toOctalString(st));
+		
+		// String toBinaryString(int b) - returns the string corresponding to the int value in binary form
+		System.out.println(Integer.toBinaryString(st));
 	} 
 }
