@@ -35,6 +35,9 @@ public class Wrapper3{
 		// String toString( char ch ) - returns a string class object representing the specified character object 
 		System.out.println(Character.toString('A'));
 		
+		// String toString() - returns a string class object representing the specified character object 
+		System.out.println(ch.toString());
+		
 		// char charValue() - return the value in the character object
 		System.out.println(ch.charValue());
 		
