@@ -18,26 +18,18 @@ public class Wrapper7{
 		System.out.println("MIN long value is "+Long.MIN_VALUE);
 		System.out.println("Class type is "+Long.TYPE);
 		
+		// Common Methods
 		// Long valueOf(long b)
 		System.out.println(Long.valueOf(sp));
 		
 		// Long valueOf(String s)
 		System.out.println(Long.valueOf("12"));
 		
-		// long parseLong(String s)
-		System.out.println(Long.parseLong("53"));
-		
 		// String toString(long i) - returns a string class object representing the specified long object 
 		System.out.println(Long.toString(st));
 		
-		// String toHexString(long b) - returns the string corresponding to the long value in hexadecimal form
-		System.out.println(Long.toHexString(st));
-		
-		// String toOctalString(long b)) - returns the string corresponding to the long value in octal form 
-		System.out.println(Long.toOctalString(st));
-		
-		// String toBinaryString(long b) - returns the string corresponding to the long value in binary form
-		System.out.println(Long.toBinaryString(st));
+		// String toString() - returns a string class object representing the specified long object 
+		System.out.println(st.toString());
 		
 		// byte byteValue() - returns a byte value representing the specified long object 
 		System.out.println(st.byteValue());
@@ -65,6 +57,10 @@ public class Wrapper7{
 		
 		// boolean equals(Object obj) - checks whether two objects are equal or not
 		System.out.println(s1.equals(s2));
+
+		// Additional Methods
+		// long parseLong(String s)
+		System.out.println(Long.parseLong("53"));
 		
 		// long max(long a, long b) - finds the max of two longs
 		System.out.println(Long.max(1,3));
@@ -74,5 +70,14 @@ public class Wrapper7{
 		
 		// int signum(long b) - returns -1 for negative values, 0 for 0 and +1 for values greater than 0. 
 		System.out.print(Long.signum(8));
+		
+		// String toHexString(long b) - returns the string corresponding to the long value in hexadecimal form
+		System.out.println(Long.toHexString(st));
+		
+		// String toOctalString(long b)) - returns the string corresponding to the long value in octal form 
+		System.out.println(Long.toOctalString(st));
+		
+		// String toBinaryString(long b) - returns the string corresponding to the long value in binary form
+		System.out.println(Long.toBinaryString(st));
 	} 
 }
