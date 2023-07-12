@@ -18,17 +18,18 @@ public class Wrapper5{
 		System.out.println("MIN short value is "+Short.MIN_VALUE);
 		System.out.println("Class type is "+Short.TYPE);
 		
+		// Common Methods
 		// Short valueOf(short b)
 		System.out.println(Short.valueOf(sp));
 		
 		// Short valueOf(String s)
 		System.out.println(Short.valueOf("12"));
 		
-		// short parseShort(String s)
-		System.out.println(Short.parseShort("53"));
-		
 		// String toString(Short s) - returns a string class object representing the specified short object 
 		System.out.println(Short.toString(st));
+		
+		// String toString() - returns a string class object representing the specified short object 
+		System.out.println(st.toString());
 		
 		// byte byteValue() - returns a byte value representing the specified short object 
 		System.out.println(st.byteValue());
@@ -56,5 +57,9 @@ public class Wrapper5{
 		
 		// boolean equals(Object obj) - checks whether two objects are equal or not
 		System.out.print(s1.equals(s2));
+		
+		// Additional Methods
+		// short parseShort(String s)
+		System.out.println(Short.parseShort("53"));
 	} 
 }
