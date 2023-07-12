@@ -18,20 +18,21 @@ public class Wrapper4{
 		System.out.println("MIN Byte value is "+Byte.MIN_VALUE);
 		System.out.println("Class type is "+Byte.TYPE);
 		
+		// byte parseByte(String s)
+		System.out.println(Byte.parseByte("53"));
+		
+		// Common Methods
 		// Byte valueOf(byte b)
 		System.out.println(Byte.valueOf(bp));
 		
 		// Byte valueOf(String s)
 		System.out.println(Byte.valueOf("12"));
 		
-		// byte parseByte(String s)
-		System.out.println(Byte.parseByte("53"));
-		
 		// String toString(byte b) - returns a string class object representing the specified byte object 
 		System.out.println(Byte.toString(bt));
 		
-		// byte byteValue() - returns a string class object representing the specified byte object 
-		System.out.println(bt.byteValue());
+		// String toString() - returns a string class object representing the specified byte object 
+		System.out.println(bt.toString());
 		
 		// byte byteValue() - returns a byte value representing the specified byte object 
 		System.out.println(bt.byteValue());
@@ -42,13 +43,13 @@ public class Wrapper4{
 		// int intValue() - returns a int value representing the specified byte object 
 		System.out.println(bt.intValue());
 		
-		// long longvalue() - returns a long value representing the specified byte object 
+		// long longValue() - returns a long value representing the specified byte object 
 		System.out.println(bt.longValue());
 		
-		// double doublevalue() - returns a double value representing the specified byte object 
+		// double doubleValue() - returns a double value representing the specified byte object 
 		System.out.println(bt.doubleValue());
 		
-		// float floatvalue() - returns a float value representing the specified byte object 
+		// float floatValue() - returns a float value representing the specified byte object 
 		System.out.println(bt.floatValue());
 		
 		// int compareTo(Byte b) - compares two byte objects numerically
